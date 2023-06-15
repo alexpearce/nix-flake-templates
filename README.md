@@ -9,10 +9,10 @@ To list available templates:
 nix flake show github:alexpearce/nix-flake-templates
 ```
 
-To create a new directory from a template, for example the `elixir-phoenix` template:
+To create a new directory from a template, for example a `website` directory using the `elixir-phoenix` template:
 
 ```
-nix flake new --template github:alexpearce/nix-flake-templates <directory name>
+nix flake new --template github:alexpearce/nix-flake-templates#elixir-phoenix website
 ```
 
 [templates]: https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake-init.html#template-definitions
