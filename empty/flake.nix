@@ -1,5 +1,5 @@
 {
-  description = "An empty flake ready for your dependencies";
+  description = "An empty flake ready for your dependencies.";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
