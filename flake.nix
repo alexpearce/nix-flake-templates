@@ -47,6 +47,19 @@
             [phx-bootstrap]: https://hexdocs.pm/phoenix/installation.html
           '';
         };
+        empty = {
+          path = ./empty;
+          description = "";
+          welcomeText = ''
+            # Empty environment created
+
+            Enable automatic environment activation with direnv:
+
+                direnv enable
+
+            Then modify the development shell's packages to suit your needs.
+          '';
+        };
       };
     });
 }
